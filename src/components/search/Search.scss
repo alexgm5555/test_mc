@@ -1,0 +1,50 @@
+$yellow: #FFE600;
+$gray:#EEEEEE;
+$gray-dark: #999999;
+$white: #fff;
+
+
+.containerSearch{
+    width: 100%;
+    height: 60px;
+    background-color: $yellow;
+}
+.divSearch{
+    margin: auto;
+    position: relative;
+    width: 70%;
+    top:13px
+}
+.imgHand{
+    position: absolute;
+    left: -80px;
+}
+.divInput{
+    position: relative;
+}
+.inputSearh{
+    font-size: 18px;
+    width: 100%;
+    position: absolute;
+    background-color: $white;
+    border-width: 0px;
+    height: 28px;
+    display:block;
+    border: none;
+    outline:none;
+}
+.imgSearch{
+    width: 27px;
+    position: absolute;
+    right: -6px;
+    top: 0px;
+    height: 30px;
+    background-color: $gray;
+    cursor: pointer;
+}
+.imgSearch img   {
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

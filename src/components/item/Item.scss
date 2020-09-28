@@ -1,0 +1,37 @@
+$yellow: #FFE600;
+$gray:#EEEEEE;
+$gray-dark: #999999;
+$white: #fff;
+
+
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+.containerItem{
+    width: 100%;
+    display: flex;
+    background-color: $white;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.containerText{
+    width: 70%;
+}
+.containerCity{
+    margin-top: 40px;
+    width: 30%;
+    font-size: 12px;
+}
+.containerTextValue{
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.labelPrice{
+    font-size: 24px;
+    margin-right: 12px;
+}
+.labelTitle{
+    font-size: 18px;
+}

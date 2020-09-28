@@ -1,0 +1,56 @@
+$white: #fff;
+.containerApp{
+    background-color: $white;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.containerfirst{
+    width: 100%;
+    display: flex;
+}
+.conteinerInfo{
+    width: 100%;
+    margin-top: 32px;
+}
+.containerTextEnd{
+    margin-left: 36px;
+}
+.imgItem{
+    min-width: 680px;
+    height: 680px
+}
+.labelNew{
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+.labelTitle{
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.labelPrice{
+    font-size: 46px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-weight: normal;
+}
+.buttonPay{
+    margin-right: 32px;
+    height: 40px;
+    background: #3484FA;
+    color: #eee;
+    font-size: 15px;
+    width: 250px;
+    font-weight: bold;
+}
+.labelTitleDescr{
+    font-size: 28px;
+}
+.labelTexEnd{
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-weight: normal;
+}
